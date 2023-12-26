@@ -73,7 +73,9 @@ Console.WriteLine("\n\nBinary Search Tree");
 BinarySearchTreeNode binarySearchTreeNode = new BinarySearchTreeNode(data);
 binarySearchTreeNode.InsertItem(5);
 var foundItem = binarySearchTreeNode.FindItem(220);
-Console.WriteLine();
+var foundItem2 = binarySearchTreeNode.FindItem(5);
+Console.WriteLine(foundItem);
+Console.WriteLine(foundItem2);
 
 Console.WriteLine("\nBubble Sort");
 BubbleSort bubbleSort = new BubbleSort();

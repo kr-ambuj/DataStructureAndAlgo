@@ -16,7 +16,6 @@ internal class BinarySearchTreeNode
     {
         new BinarySearchTreeNode();
         foreach (var item in dataArr) { InsertItem(item); }
-        int count = 0;
     }
 
     public void InsertItem(int data)
@@ -36,13 +35,9 @@ internal class BinarySearchTreeNode
         else
         {
             if (data < node.Key)
-            {
                 node.LeftChild = InsertItem(node.LeftChild, data);
-            }
             else if (data > node.Key)
-            {
                 node.RightChild = InsertItem(node.RightChild, data);
-            }
         }
         return node;
     }
