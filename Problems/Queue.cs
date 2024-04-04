@@ -1,6 +1,6 @@
 ﻿using DataStructureAndAlgo.Utility;
-namespace DataStructureAndAlgo.Problems;
 
+namespace DataStructureAndAlgo.Problems;
 internal class Queue
 {
     public int[] QueueArray { get; set; }

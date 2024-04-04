@@ -67,7 +67,7 @@ binarySearch.FindItem(data, 64);
 binarySearch.FindItem(data, -45);
 binarySearch.FindItem(data, -20);
 binarySearch.FindItem(data, 32);
-binarySearch.FindItem(data, 0);
+binarySearch.FindItem(data, 9);
 
 Console.WriteLine("\n\nBinary Search Tree");
 BinarySearchTreeNode binarySearchTreeNode = new BinarySearchTreeNode(data);
